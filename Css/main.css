@@ -115,6 +115,7 @@ a {
     line-height: 1.7rem;
     margin-top: 2em;
     margin-bottom: 2em;
+    color: white;
 }
 
 .signin-button {
@@ -127,6 +128,7 @@ a {
     border: none;
     padding: .5em 2em;
     border-radius: 10px;
+    color: white;
 }
 
 .signin-button button:hover {
@@ -507,6 +509,10 @@ a {
     background: #FA5426;
 }
 
+.working-image {
+    display: none;
+}
+
 
 /* END OF MANAGE ACCOUNT */
 
@@ -537,6 +543,7 @@ a {
         width: 45%;
     }
     .working-image {
+        display: block;
         width: 55%;
     }
     .working-image-div {
