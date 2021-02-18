@@ -1,0 +1,442 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../Assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_Bold;
+    src: url(../Assets/fonts/Montserrat-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #EBEBEB;
+}
+
+* {
+    font-family: Montserrat;
+    color: #0C1014;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* MAIN CSS */
+
+
+/* ==================================================================== */
+
+.container {
+    width: 100%;
+}
+
+.navbar-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* END OF MAIN CSS */
+
+
+/* ---------------------------------------------------------------------- */
+
+
+/* HOMEPAGE */
+
+
+/* ======================================================= */
+
+.gradient-container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#1d262e, #0C1014);
+}
+
+.body-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-list-container {
+    margin-right: 1em;
+}
+
+.nav-list-container ul {
+    display: flex;
+}
+
+.nav-list-container ul li {
+    font-size: .85rem;
+}
+
+.nav-actual-list {
+    padding: .4em 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-actual-list:hover {
+    background: #FA5426;
+}
+
+.body-div {
+    width: 100%;
+}
+
+.welcome {
+    text-align: center;
+    font-family: Montserrat_Bold;
+    font-size: 3rem;
+    color: #FA5426;
+}
+
+.welcome-message {
+    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.7rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.signin-button {
+    display: flex;
+    justify-content: center;
+}
+
+.signin-button button {
+    background: #FA5426;
+    border: none;
+    padding: .5em 2em;
+    border-radius: 10px;
+}
+
+.signin-button button:hover {
+    background: #f8653c;
+}
+
+
+/* END OF HOMEPAGE */
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* LOGIN */
+
+
+/* ====================================================== */
+
+.navbar-div {
+    background: #0C1014;
+}
+
+.inputs-container {
+    box-sizing: border-box;
+    width: 90%;
+    background: white;
+    margin: auto;
+    padding: 4em 1em;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.inputs-title {
+    font-size: 1.2rem;
+    font-family: Montserrat_Bold;
+}
+
+.inputs-subtitle {
+    font-size: .85rem;
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+.input-div {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.error {
+    font-size: .75rem;
+    color: red;
+}
+
+.input-div label {
+    font-size: .8rem;
+}
+
+.actual-input {
+    width: 100%;
+}
+
+.actual-input input {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #0c101459 1px;
+    border-radius: 5px;
+    padding: .5em 1em;
+    margin-top: .3em;
+}
+
+.actual-input input:hover {
+    border-color: #f8653c62;
+}
+
+.remember-me-container {
+    font-size: .85rem;
+    margin-top: 1em;
+}
+
+.remember-me-container label {
+    font-size: .8rem;
+}
+
+.remember-me-container label:hover {
+    color: #f8653c;
+    cursor: pointer;
+}
+
+.inputs-button {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2em;
+}
+
+.inputs-button button {
+    background: #FA5426;
+    border: none;
+    padding: .7em 2em;
+    border-radius: 5px;
+    color: white;
+}
+
+.inputs-button button:hover {
+    background: #f8653c;
+}
+
+.forgot-password,
+.register-new-user {
+    font-size: .8rem;
+    color: #f8653c;
+    margin-top: 2em;
+}
+
+.register-new-user {
+    margin-top: .5em;
+}
+
+.forgot-password:hover,
+.register-new-user:hover {
+    color: #0C1014;
+}
+
+
+/* END OF LOGIN */
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* ====================================================================== */
+
+
+/* ALL LISTINGS */
+
+.client-work-card-container {
+    width: 100%;
+}
+
+.client-work-card-div {
+    box-sizing: border-box;
+    width: 95%;
+    margin: auto;
+    background: white;
+    padding: .5em;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+.project-name {
+    font-size: 1rem;
+    font-family: Montserrat_Bold;
+    color: #FA5426;
+}
+
+.project-name-subheading {
+    font-size: .8rem;
+    color: #1d262e91;
+}
+
+.description {
+    font-size: .8rem;
+    margin-top: 1em;
+}
+
+.skills {
+    font-size: .8rem;
+    font-family: Montserrat_Bold;
+    margin-top: 1em;
+    color: #FA5426;
+}
+
+.client-work-card-section-2-top {
+    font-family: Montserrat_Bold;
+    font-size: 1.4rem;
+    margin-top: 1em;
+}
+
+.client-work-card-section-2-bottom {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-work-card-section-2-bottom-button button {
+    padding: .5em 2em;
+    border: none;
+    background: #FA5426;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.client-work-card-section-2-bottom-button button:hover {
+    background: #f8653c;
+}
+
+
+/* END OF ALL LISTINGS */
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* =============================================================== */
+
+
+/* WORK HISTORY */
+
+.rating {
+    margin-top: 1em;
+    font-size: .75rem;
+    color: #0c101488;
+}
+
+.complete-date {
+    font-size: .8rem;
+    color: #0c101488;
+}
+
+
+/* END OF WORK HISTORY */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* =========================================================== */
+
+
+/* ABOUT US */
+
+.description-pages-container {
+    width: 100%;
+    padding: 1em;
+}
+
+.description-pages-left-section {
+    background: white;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 5px;
+    padding: 4em 1em;
+}
+
+.description-pages-left-section-title {
+    font-size: 1.5rem;
+    font-family: Montserrat_Bold;
+    color: #FA5426;
+}
+
+.description-pages-left-section-content {
+    font-size: .85rem;
+    margin-top: 2em;
+    color: #1d262eb4;
+}
+
+
+/* END OF ABOUT US  */
+
+
+/* ----------------------------------------------------------------------- */
+
+
+/* ################################################################ */
+
+@media screen and (min-width: 768px) {
+    .client-work-card-section-2-bottom {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .inputs-container-holder {
+        padding-left: 2em;
+        width: 50%;
+    }
+    .client-work-card-section-2-bottom {
+        display: block;
+    }
+    .client-work-card-section-2 {
+        width: 20%;
+    }
+    .client-work-card-section-2-bottom {
+        width: 100%;
+    }
+    .client-work-card-div {
+        width: 70%;
+        margin-left: 0;
+        margin-left: 2em;
+    }
+    .client-work-card-section-2-bottom-button {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .client-work-card-section-1 {
+        width: 80%;
+    }
+    .client-work-card-section-2-top {
+        margin-top: 0;
+    }
+    .client-work-card-section-2-bottom-button button {
+        margin-top: .5em;
+        width: 100%;
+    }
+    .client-work-card-div {
+        display: flex;
+    }
+    .description-pages-left-section {
+        width: 50%;
+        margin-left: 0;
+    }
+}
