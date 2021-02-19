@@ -258,6 +258,18 @@ a {
     color: #0C1014;
 }
 
+.work-buttons {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-buttons .inputs-button {
+    margin-top: 1em;
+    padding: 0;
+}
+
 
 /* END OF LOGIN */
 
@@ -536,6 +548,13 @@ a {
         width: 60%;
         margin-left: 2em;
     }
+    .work-buttons {
+        width: 90%;
+        margin: auto;
+    }
+    .work-buttons .inputs-button {
+        padding: 0;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -619,5 +638,15 @@ a {
     .manage-account-header {
         box-sizing: border-box;
         width: 60%;
+    }
+    .work-buttons {
+        box-sizing: border-box;
+        width: 45%;
+        margin: 0;
+        padding-left: 1em;
+        margin-top: 1em;
+    }
+    .work-buttons .inputs-button {
+        margin: 0;
     }
 }
