@@ -62,7 +62,7 @@ a {
 .gradient-container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#1d262e, #0C1014);
+    background: linear-gradient(#33414d, #0C1014);
 }
 
 .body-container {
@@ -151,6 +151,10 @@ a {
     background: #0C1014;
 }
 
+#nav_bar_div_home {
+    background: transparent;
+}
+
 .inputs-container {
     box-sizing: border-box;
     width: 90%;
@@ -191,7 +195,8 @@ a {
     width: 100%;
 }
 
-.actual-input input {
+.actual-input input,
+.actual-input select {
     box-sizing: border-box;
     width: 100%;
     border: solid #0c101459 1px;
@@ -200,7 +205,8 @@ a {
     margin-top: .3em;
 }
 
-.actual-input input:hover {
+.actual-input input:hover,
+.actual-input select:hover {
     border-color: #f8653c62;
 }
 
@@ -535,12 +541,13 @@ a {
 @media screen and (min-width: 1024px) {
     .inputs-container-holder {
         box-sizing: border-box;
-        padding-left: 2em;
+        padding-left: 1em;
         width: 100%;
         display: flex;
     }
     .inputs-container {
         width: 45%;
+        margin-left: 0;
     }
     .working-image {
         display: block;
